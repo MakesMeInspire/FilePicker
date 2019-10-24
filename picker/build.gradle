@@ -4,7 +4,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.makesmeinspire'
-version = '1.4'
+version = '1.5'
 
 android {
     compileSdkVersion 29
@@ -33,7 +33,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0-alpha05'
-    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0-rc02'
 
     implementation 'com.google.android.material:material:1.0.0'
     implementation  'androidx.recyclerview:recyclerview:1.0.0'
